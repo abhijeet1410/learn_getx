@@ -55,14 +55,6 @@ class _HomePageState extends State<HomePage> {
                   child: const Text("Previous"),
                   onPressed: () {
                     _changeImageController.previousVal();
-                    // setState(() {
-                    //   if (count <= 1) {
-                    //     count = 3;
-                    //   } else {
-                    //     count--;
-                    //   }
-                    // });
-                    //changeController.previousVal();
                   },
                 ),
               ),
