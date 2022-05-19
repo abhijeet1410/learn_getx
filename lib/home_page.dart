@@ -10,7 +10,6 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  //int count = 1;
   late ChangeImageController _changeImageController;
 
   @override
