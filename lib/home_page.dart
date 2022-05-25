@@ -33,8 +33,6 @@ class _HomePageState extends State<HomePage> {
         child: Column(
           children: [
             Obx(() {
-              print(
-                  "CURRENT COUNT INSIDE BUILD ${_changeImageController.count.value}"); //2
               return Image.asset(_changeImageController.count.value == 1
                   ? "assets/feather.jpg"
                   : _changeImageController.count.value == 2
